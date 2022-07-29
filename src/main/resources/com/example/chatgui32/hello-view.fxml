@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.chatgui32.HelloController">
+   <children>
+      <TextArea fx:id="userList" editable="false" prefHeight="-Infinity" prefWidth="150" />
+      <VBox>
+         <TextArea fx:id="textArea" editable="false" prefHeight="350.0" prefWidth="300.0" />
+         <HBox prefHeight="75.0" prefWidth="300.0">
+            <children>
+               <TextField fx:id="messageField" prefWidth="240.0" />
+               <Button mnemonicParsing="false" onAction="#sendHandler" text="Отправить" />
+            </children>
+         </HBox>
+         <Button mnemonicParsing="false" onAction="#connect" prefHeight="50.0" text="Подключение к серверу" />
+      </VBox>
+   </children>
+</HBox>
