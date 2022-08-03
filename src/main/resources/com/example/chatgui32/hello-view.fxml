@@ -10,11 +10,11 @@
          <TextArea fx:id="textArea" editable="false" prefHeight="350.0" prefWidth="300.0" />
          <HBox prefHeight="75.0" prefWidth="300.0">
             <children>
-               <TextField fx:id="messageField" prefWidth="240.0" />
+               <TextField fx:id="messageField" prefWidth="220.0" />
                <Button mnemonicParsing="false" onAction="#sendHandler" text="Отправить" />
             </children>
          </HBox>
-         <Button mnemonicParsing="false" onAction="#connect" prefHeight="50.0" text="Подключение к серверу" />
+         <Button mnemonicParsing="false" onAction="#connect" prefHeight="50.0"  text="Подключение к серверу" />
       </VBox>
    </children>
 </HBox>
